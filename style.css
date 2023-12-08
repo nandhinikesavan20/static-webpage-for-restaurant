@@ -1,0 +1,355 @@
+#home-section{
+background-image: url(bgimg.png);
+min-height: 100vh;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+#about-section{
+    min-height: 100vh; 
+    background-color:white;
+    color: black;
+    padding-top: 62px;
+    }
+#reservation{
+    padding-top: 62px;
+}
+#testimonial-section{
+    min-height: 100vh; 
+    background-color:white;
+    color: black;
+    padding-top: 62px;
+}
+#footer-section{
+    min-height: 50vh; 
+    background-color:#0F172B;
+    color: white;
+    padding-top: 62px;
+}
+#navbar{
+    z-index: 1001;
+}
+#menu-section{
+    min-height: 100vh;
+    color: black;
+    padding-top: 62px;
+}
+
+h5{
+    font-family: "Nunito",sans-serif;
+}
+
+.med-text, #li{
+    line-height: 30px;
+}
+
+.navbar{
+    position: fixed;
+    left:0px;
+    right: 0px;
+}
+.nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+    background-color: #FEA116;
+    z-index: 1001;
+    color:black;
+}
+.about-text{
+    padding-top: 20%;
+    padding-left: 4%;
+    line-height: 50px;
+    color: white;
+}
+span{
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+}
+.h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+.p{
+    
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+}
+.navbar-nav .nav-item .nav-link{
+    color: rgb(239, 245, 245);
+    font-weight: 500;
+}
+
+
+
+h3{
+    font-weight: 500;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+   
+}
+.about-body {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-left:5%;
+    padding-right:5%; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.containers, .text-container{
+    padding: 10px;
+}
+.rows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+}
+
+
+.med-text{
+    font-family: cursive;
+    padding-top: 10px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.section-heading
+{
+    color:  #FEA116;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.sub-head{
+  
+    font-size: x-large;
+}
+.about-foot{
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+
+}
+.abt-ft{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    row-gap: 10px;
+    
+}
+
+/*menu-sec*/
+.ic{
+    color: #FEA116;
+}
+.menu-head{
+    display: flex;
+    flex-direction: row;
+}
+
+.breakfast-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding-left: 13%;
+   padding-right: 5%;
+  
+   flex-wrap: wrap;
+    
+}
+.foodimg{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+.cards{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    
+    column-gap: 30px;
+    
+    padding-bottom: 20px;
+    height: 90px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.price{
+    color: #FEA116;
+    font-weight: 550;
+    
+}
+
+/*reservation*/
+.reservation{
+    min-height: 100vh;
+    color: black;
+    padding-top: 30px;
+}
+.book-table{
+padding-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.table-form{
+    padding: 20px;
+    background-color: #0F172B;
+    color: white;
+    
+}
+.foot{
+    display: flex;
+    padding-right: 20%;
+    padding-left: 20%;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#footer-section .li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-section .container{
+    border: none;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+}
+#menu-section .container .card{
+    border: none;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+.copy{
+    padding-left: 45%;
+}
+
+
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.about-text{
+    animation:2s ease-out 0s 1 slideInFromLeft;
+}
+
+
+
+/*
+div.slide-up{
+    height: 200px;
+    overflow: hidden;
+}
+
+div.slide-up p{
+    animation: 3s slide-up;
+    margin-top:0%;
+}
+@keyframes slide-up{
+    from{
+        margin-top:100%;
+        height: 300%;
+    }
+    to{
+        margin-top:0%;
+        height: 100%;
+    }
+
+}
+*/
+
+
+.testi{
+    padding-top: 25px;
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.card-foot{
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+padding-top: 15px;
+}
+.card-foot img{
+    border-radius: 50%;
+}
+.testi-card{
+    background-color: #FEA116;
+    padding: 20px;
+    margin-right: 30px;
+    color: white;
+    border-radius: 3px;
+    
+  
+}
+
+@media screen and (max-width:600px){
+
+    .text-container, .breakfast-list , .about-body, .book-table, .testi{
+        flex: auto;
+    }
+    .book-table{
+        flex: auto;
+    }
+    .containers{
+        width: 800px;
+    }
+    .rows{
+        height: 180px;
+    }
+    #home-section{
+        padding-top: 250px;
+        padding-left: 2px;
+    }
+    .text-container, .about-foot{
+        width: 300px;
+    }
+    .about-foot{
+        width: 300px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .testi-card{
+        margin-bottom: 10px;
+        margin-left: 7%;
+    }
+    .foot-company{
+        padding-left: 13%;
+    }
+    .copy{
+       padding-left: 32%;
+    }
+}
+
+#footer-section h3 {
+    color: #FEA116;
+}

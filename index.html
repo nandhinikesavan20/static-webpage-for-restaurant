@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Nunito:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--<script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("breakfast-list");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+    </script>-->
+    
+
+    <style>
+        .h1{
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav id="navbar" class="navbar  navbar-expand-md navbar-dark bg-dark" style="background-color: #0F172B;" >
+        <div class="container">
+            <a href="#" class="navbar-brand"><h6 class="fa-solid fa-utensils" ><span>RESTORAN</span></h6></a>
+            <ul class="navbar-nav" >
+                <li class="nav-item"><a href="#home-section" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#menu-section" class="nav-link">MENU</a></li>
+                <li class="nav-item"><a href="#footer-section" class="nav-link">CONTACT</a></li>
+                <li class="nav-item"><a href="#reservation" class="nav-link">BOOK A TABLE</a></li>
+            </ul>
+            <!--<div class="navbar-text">BOOK A TICKET</div>-->
+        </div>
+    </nav>
+
+    <section id="home-section" >
+        <div class="about-text">
+            <h1 class="h1">Welcome To Restoran</h1>
+            <p class="p">Enjoy Our Delicious Meal</p>
+
+        </div>
+    </section>
+    
+    <section id="about-section">
+        
+            <h3 class="section-heading" >About Us</h3>
+            <div class="about-body">
+                <div class="containers" style="flex: 1.5;">
+                   <div class="rows" >
+                        <div class="cols" ><img class="boxx" id="restronimg" style="object-fit: cover;width: 100%;height: 100%;" src="./static/images/pic-5.png" alt=""></div> 
+                        <div class="cols" style="padding-top: 20%;padding-right: 20%;"><img class="boxx" id="restronimg" style="object-fit: cover; width: 100%;height: 100%;" src="./static/images/pic-2.png" alt=""></div> 
+                        
+                    </div>
+                    <div class="rows" >
+                        <div class="cols" style="padding-left: 20%;padding-bottom: 20%;"><img class="boxx" id="restronimg" style="object-fit: cover;width: 100%;height: 100%;" src="./static/images/pic-4.png" alt=""></div> 
+                        <div class="cols" ><img class="boxx" id="restronimg" style="object-fit: cover;width: 100%;height: 100%;" src="./static/images/pic-3.png" alt=""></div> 
+                        
+                    </div>
+                    
+                </div>
+                <div style="flex: 2;padding-left: 15px;" class="text-container">
+                    <h3 >Cooking with love, that you eat with pleasure</h3>
+                    <p class="med-text"> Welcome to Restoran, where culinary excellence meets exceptional dining. Our restaurant is a haven for food enthusiasts seeking a delightful gastronomic journey. With a diverse menu crafted from the finest ingredients, our talented chefs create dishes that are both visually stunning and a treat for your taste buds.
+
+                        Whether you're looking for an intimate dinner for two or a lively gathering with friends and family, our warm and inviting ambiance provides the perfect setting. <br>  <br> We pride ourselves on offering impeccable service, ensuring every visit is a memorable experience.
+                        
+                        Explore our menu to discover a fusion of flavors that cater to a variety of tastes. From mouthwatering appetizers to delectable main courses and indulgent desserts, we have something to satisfy every craving. We also offer an extensive selection of wines and beverages to complement your meal.</p>
+
+                    <div class="about-foot">
+                        <div class="abt-ft">
+                            <h1 style="padding: 10%;color: #fea116;">15</h1>
+                            <div><h4>Years of</h4><h5>Experience</h5></div>
+                        </div>
+                        <div class="abt-ft">
+                            <h1 style="padding: 10%;color: #fea116;">50</h1>
+                            <div><h4>Popular</h4><h5>Master chefs</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div></div>
+    </section>
+    <section id="menu-section">
+        <h3 class="section-heading" >Food Menu</h3>
+        <h3 class="sub-head">Most Popular Items</h3>
+        <div class="menu-head" style="text-align: center; padding-top: 20px;padding-left: 10%;padding-right: 10%;">
+            <div class="menu-div" style="flex: 1;">
+                <div class="ic"><a href="#bf" style="text-decoration: none;">
+                    <i class="fa-solid fa-mug-saucer fa-xl" style="color: #fea116;"></i>
+                </div>
+                <div style="color: black;">
+                    <h5 style="font-weight: 400;">Popular</h5>
+                    <h5 style="font-weight: bold;">Breakfast</h5>
+                    
+                </div>
+            </a>
+                <hr>
+            </div>
+            
+            <div class="menu-div" style="flex: 1;">
+                <div class="ic" ><a href="#lch" style="text-decoration: none;">
+                    <i class="fa-solid fa-burger fa-xl" style="color: #fea116;"></i>
+                </div>
+                <div style="color: black;">
+                    <h5 style="font-weight: 400;">Special</h5>
+                    <h5 style="font-weight: bold;">Lunch</h5>
+                    
+                </div></a>
+                <hr>
+            </div>
+
+            <div class="menu-div" style="flex: 1;"><a href="#din" style="text-decoration: none;">
+                <div class="ic"><i class="fa-solid fa-utensils fa-xl" style="color: #fea116;"></i>
+                </div>
+                <div style="color: black;">
+                    <h5 style="font-weight: 400;">Lovely</h5>
+                    <h5 style="font-weight: bold;">Dinner</h5>
+                </div>
+            </a>
+                <hr>
+            </div>
+
+        </div>
+   <div class="container" id="food-items">
+       <div class="card" id="bf">
+
+        <div class="breakfast-list" id="breakfast-list" style="padding-top: 5%;padding-bottom: 3%;">
+            
+            
+
+            <div style="flex: 1;padding-right: 10px;">
+               <div class="cards"> 
+                    <div><img class="foodimg" src="./static/images/coffee.jpg" alt=""></div>
+                    <div><h5>Coffee</h5><h5 class="price">$ 25</h5></div>
+                        
+                </div>
+                <div  class="cards"> 
+                    <div><img class="foodimg" src="./static/images/cookies.jpg" alt=""></div>
+                    <div><h5>Cookies</h5><h5 class="price">$ 50</h5></div>
+                    
+                </div>
+                <div  class="cards">
+                    <div><img class="foodimg" src="./static/images/fruit-salad.jpg" alt=""></div>
+                    <div><h5>Fruit Salad</h5><h5 class="price">$ 40</h5></div>
+                        
+                
+                </div>
+                <div  class="cards">
+                    <div><img class="foodimg" src="./static/images/fruit-toast.jpg" alt=""></div>
+                    <div><h5>Fruit Toast</h5><h5 class="price">$ 100</h5></div>
+                    
+                   
+                </div>
+ 
+            </div>
+
+            <div style="flex: 1;padding-left: 5px;">
+
+            <div class="cards" > 
+                <div><img class="foodimg" style="object-fit: cover;" src="./static/images/pancake.jpg" alt=""></div>
+                <div><h5>Pancake</h5><h5 class="price">$ 75</h5></div>    
+            </div>
+            <div  class="cards"> 
+                <div><img class="foodimg" src="./static/images/sandwich.jpg" alt=""></div>
+                <div><h5>Sandwich</h5><h5 class="price">$ 70</h5></div>    
+            </div>
+            <div  class="cards">
+                <div><img class="foodimg" src="./static/images/pancakes.jpg" alt=""></div>
+                <div><h5>Pancake</h5><h5 class="price">$ 50</h5></div>   
+            </div>
+            <div  class="cards">
+                <div><img class="foodimg" src="./static/images/coffee.jpg" alt=""></div>
+                <div><h5>Coffee</h5><h5 class="price">$ 25</h5></div>
+            </div>
+
+            </div>
+           
+        </div>
+        </div>
+
+
+
+
+        <div class="card" id="lch">
+
+            <div class="breakfast-list" id="breakfast-list" style="padding-top: 5%;padding-bottom: 3%;">
+                
+                
+    
+                <div style="flex: 1;padding-right: 10px;">
+                    <div class="cards" > 
+                        <div><img class="foodimg" style="object-fit: cover;" src="./static/images/burger.jpg" alt=""></div>
+                        <div><h5>Burger</h5><h5 class="price">$ 115</h5></div>    
+                    </div>
+                    <div  class="cards"> 
+                        <div><img class="foodimg" src="./static/images/chicken-fried-rice.jpg" alt=""></div>
+                        <div><h5>Chicken Fried Rice</h5><h5 class="price">$ 120</h5></div>    
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/grilled-chicken.jpg" alt=""></div>
+                        <div><h5>Grilled Chicken</h5><h5 class="price">$ 250</h5></div>   
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/chicken-fried-rice.jpg" alt=""></div>
+                        <div><h5>Chicken Fried Rice</h5><h5 class="price">$ 120</h5></div>
+                    </div>
+        
+     
+                </div>
+    
+                <div style="flex: 1;padding-left: 5px;">
+    
+                    <div class="cards" > 
+                        <div><img class="foodimg" style="object-fit: cover;" src="./static/images/mango.jpg" alt=""></div>
+                        <div><h5>Mango</h5><h5 class="price">$ 70</h5></div>    
+                    </div>
+                    <div  class="cards"> 
+                        <div><img class="foodimg" src="./static/images/pasta.jpg" alt=""></div>
+                        <div><h5>Pasta</h5><h5 class="price">$ 70</h5></div>    
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/veg-fried-rice.jpg" alt=""></div>
+                        <div><h5>Fried Rice</h5><h5 class="price">$ 90</h5></div>   
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/strawberry.jpg" alt=""></div>
+                        <div><h5>Strawberry</h5><h5 class="price">$ 70</h5></div>
+                    </div>
+        
+    
+    
+                </div>
+               
+            </div>
+            </div>
+    
+    
+    
+            
+
+        
+
+        <div class="card" id="din">
+
+            <div class="breakfast-list" id="breakfast-list" style="padding-top: 5%;padding-bottom: 3%;">
+                
+            
+    
+                <div style="flex: 1;padding-right: 10px;">
+                    <div class="cards" > 
+                        <div><img class="foodimg" style="object-fit: cover;" src="./static/images/pancake.jpg" alt=""></div>
+                        <div><h5>Pancake</h5><h5 class="price">$ 75</h5></div>    
+                    </div>
+                    <div  class="cards"> 
+                        <div><img class="foodimg" src="./static/images/sandwich.jpg" alt=""></div>
+                        <div><h5>Sandwich</h5><h5 class="price">$ 70</h5></div>    
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/pancakes.jpg" alt=""></div>
+                        <div><h5>Pancake</h5><h5 class="price">$ 50</h5></div>   
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/coffee.jpg" alt=""></div>
+                        <div><h5>Coffee</h5><h5 class="price">$ 25</h5></div>
+                    </div>
+        
+     
+                </div>
+    
+                <div style="flex: 1;padding-left: 5px;">
+    
+                    <div class="cards" > 
+                        <div><img class="foodimg" style="object-fit: cover;" src="./static/images/pancake.jpg" alt=""></div>
+                        <div><h5>Pancake</h5><h5 class="price">$ 75</h5></div>    
+                    </div>
+                    <div  class="cards"> 
+                        <div><img class="foodimg" src="./static/images/sandwich.jpg" alt=""></div>
+                        <div><h5>Sandwich</h5><h5 class="price">$ 70</h5></div>    
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/pancakes.jpg" alt=""></div>
+                        <div><h5>Pancake</h5><h5 class="price">$ 50</h5></div>   
+                    </div>
+                    <div  class="cards">
+                        <div><img class="foodimg" src="./static/images/coffee.jpg" alt=""></div>
+                        <div><h5>Coffee</h5><h5 class="price">$ 25</h5></div>
+                    </div>
+        
+    
+    
+                </div>
+            
+            </div>
+
+
+        </div>
+
+            </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    <section class="reservation" id="reservation">
+        <h3 class="section-heading" >Reservation</h3>
+        <div class="book-table">
+            <div style="flex: 1;"><img style="object-fit: cover;width: 100%;height: 100%;" src="./static/images/pic-3.png" alt=""></div>
+            <div class="table-form" style="flex: 1;padding-left: 3%; padding-right: 3%;">
+                <h3 style="padding-bottom: 3%;">Book A Table Online</h3>
+                <div>
+                     <div class="form-floating mb-3" >
+                        <input type="name" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput" style="color: grey;">Your Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingPassword" placeholder="">
+                        <label for="floatingPassword" style="color: grey;">Your Email</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                        <label for="floatingInputGrid" style="color: grey;">Date</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelectGrid" style="color: grey;">No Of People</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2" style="color: grey;">Special Request</label>
+                      </div>
+                       <div style=" display: flex; justify-content: center; align-items: center;">
+                      <button style="background-color: #fea116;color: white;height: 50px;width: 300px;">BOOK NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+    </section>
+
+    <section id="testimonial-section">
+        <h3 class="section-heading">Testimonial</h3>
+        <h3 class="sub-head">Our Clients Say!!!</h3>
+       <div class="testi">
+        <div style="flex:1" class="testi-card">
+            <div >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit, doloremque neque, voluptate quas, dolor ipsa sunt beatae ipsam impedit velit tenetur! Dolorem, nobis veniam beatae sunt sint dolor maxime?</div>
+            <div class="card-foot">
+                <div style="flex: 1;"><img src="./static/images/dp.png" style="width: 90%;height: 100%;" alt=""></div>
+                <div style="flex: 2;padding-left: 20px;padding-top: 3px;padding-bottom: 5px;">Nandhini <br> Developer</div>
+            </div>
+        </div>
+
+        
+        <div style="flex:1" class="testi-card">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit, doloremque neque, voluptate quas, dolor ipsa sunt beatae ipsam impedit velit tenetur! Dolorem, nobis veniam beatae sunt sint dolor maxime?</div>
+            <div class="card-foot">
+                <div style="flex: 1;"><img src="./static/images/dp.png" style="width: 90%;height: 100%;" alt=""  alt=""></div>
+                <div style="flex: 2;padding-left: 20px; padding-top: 3px;padding-bottom: 5px;">Nandhini <br> Developer</div>
+            </div>
+        </div>
+
+        <div style="flex:1" class="testi-card">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit, doloremque neque, voluptate quas, dolor ipsa sunt beatae ipsam impedit velit tenetur! Dolorem, nobis veniam beatae sunt sint dolor maxime?</div>
+            <div class="card-foot">
+                <div style="flex: 1;"><img src="./static/images/dp.png" style="width: 90%;height: 100%;" alt="" alt=""></div>
+                <div style="flex: 2;padding-left: 20px; padding-top: 3px;padding-bottom: 5px;">Nandhini <br> Developer</div>
+            </div>
+        </div>
+
+        <div style="flex:1" class="testi-card">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit, doloremque neque, voluptate quas, dolor ipsa sunt beatae ipsam impedit velit tenetur! Dolorem, nobis veniam beatae sunt sint dolor maxime?</div>
+            <div class="card-foot">
+                <div style="flex: 1;"><img src="./static/images/dp.png" style="width: 90%;height: 100%;" alt="" alt=""></div>
+                <div style="flex: 2;padding-left: 20px;padding-top: 3px;padding-bottom: 5px;">Nandhini <br> Developer</div>
+            </div>
+        </div>
+    
+
+
+       </div>
+
+    </section>
+    
+    <section id="footer-section" >
+        <div class="foot" >
+        <div class="foot-company">
+            <h3>Company</h3>
+            <ul type="none" style="color: white; padding-left: 0%;">
+                <li id="li"><i class="fa-solid fa-greater-than fa-sm" style="padding-right: 5px;"></i><a href="#about-section" style="color: white;text-decoration: none;"> About Us</a></li>
+                <li id="li"><i class="fa-solid fa-greater-than fa-sm" style="padding-right: 5px;"></i><a href="#footer-section" style="color: white;text-decoration: none;"> Contact Us</a></li>
+                <li id="li"><i class="fa-solid fa-greater-than fa-sm" style="padding-right: 5px;"></i><a href="#reservation" style="color: white;text-decoration: none;"> Reservation</a></li>
+                <li id="li"> <i class="fa-solid fa-greater-than fa-sm" style="padding-right: 5px;"></i><a href="#testimonial-section" style="color: white;text-decoration: none;"> Testimonial</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <ul type="none">
+                <li id="li"><i class="fa-solid fa-location-dot fa-sm" style="padding-right: 5px;"></i> Salem, Tamil Nadu</li>
+                <li id="li"><i class="fa-solid fa-phone fa-sm" style="padding-right: 5px;"></i>+91 94430 62067</li>
+                <li id="li"><i class="fa-solid fa-envelope fa-sm" style="padding-right: 5px;"></i>nandhini@gmail.com</li>
+            </ul>
+        </div>
+        <div >
+            <h3 style="padding-bottom: 3px;">Opening</h3>
+            <div style="padding-left: 30px;line-height: 10px;">
+            <h6>MONDAY-SATURDAY</h6>
+            <p>09AM - 09PM</p>
+            <h6>SUNDAY</h6>
+            <p>10AM - 08PM</p>
+        </div>
+        </div>
+        
+
+    </div>
+    <hr>
+        <div class="copy" >@copy rights</div>
+
+    </section>
+    
+</body>
+</html>
